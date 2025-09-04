@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valoria Chronicles</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #0e0e0e;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    header {
+      background: url('knight.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-size: 4rem;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+      text-align: center;
+    }
+    .card img {
+      width: 100px; /* ukuran foto kecil */
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .card strong {
+      font-size: 1.2rem;
+      display: block;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #111;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Valoria Chronicles</h1>
+  </header>  
+
+  <section>
+    <h2>🌍 The World of Valoria</h2>
+    <p>Valoria adalah benua luas dengan pegunungan es di utara, gurun emas di selatan, hutan purba di barat, dan kepulauan misterius di timur. Dari tanah ini, peradaban tumbuh, kerajaan bangkit dan runtuh, serta legenda tercipta. Dunia ini bukan hanya sekadar tanah kosong, tetapi juga rumah bagi puluhan ras dengan budaya, sejarah, dan konflik mereka sendiri. Setiap sudut Valoria menyimpan kisah, mulai dari kerajaan agung hingga desa kecil yang tersembunyi di balik hutan lebat.</p>
+  </section>  
+
+  <section>
+    <h2>🧬 25 Races of Valoria</h2>
+    <div class="grid">
+      
+      <div class="card">
+        <img src="elf.jpg" alt="High Elf">
+        <strong>High elf</strong><br>
+        HP: 1200 | MP: 980 | STR:78 | AGI:77 | END:68 | INT:96 | DEX:55<br>
+        Status Unggul: Kecerdasan<br>
+        Kelebihan: Menguasai sihir alam.<br>
+        Penjelasan: Kaum elf agung yang hidup di hutan suci. Mereka memiliki hubungan erat dengan roh alam, mampu menyembuhkan luka, dan menjaga keseimbangan ekosistem.
+      </div>
+
+      <div class="card">
+        <img src="dragon.jpg" alt="Dragonkin Fire">
+        <strong>Dragonkin fire</strong><br>
+        HP: 1500 | MP: 900 | STR:73 | AGI:55 | END:75 | INT:46 | DEX:55<br>
+        Status Unggul: Kekuatan<br>
+        Kelebihan: Napas naga berapi.<br>
+        Penjelasan: Keturunan naga purba dengan sisik keras. Mereka mampu menghembuskan api dan unggul dalam peperangan jarak dekat.
+      </div>
+
+      <div class="card">
+        <img src="shadow1.jpg" alt="Umbrith">
+        <strong>Umbrith</strong><br>
+        HP: 1000 | MP: 1200 | STR:78 | AGI:65 | END:65 | INT:76 | DEX:55<br>
+        Status Unggul: Kelicikan<br>
+        Kelebihan: Ilusi bayangan.<br>
+        Penjelasan: Makhluk yang lahir dari kegelapan. Mereka ahli dalam menipu musuh, menciptakan kegelapan, dan menguasai seni ilusi.
+      </div>
+
+      <div class="card">
+        <img src="human.jpg" alt="Sylorian">
+        <strong>Sylorian</strong><br>
+        HP: 1300 | MP: 660 | STR:60 | AGI:65 | END:56 | INT:56 | DEX:45<br>
+        Status Unggul: Kepemimpinan<br>
+        Kelebihan: Strategi perang.<br>
+        Penjelasan: Bangsa manusia yang dikenal ambisius dan tangguh.
+      </div>
+
+      <div class="card">
+        <img src="druid.jpg" alt="Feyborn">
+        <strong>druid</strong><br>
+        HP: 900 | MP: 1400 | STR:60 | AGI:65 | END:75 | INT:66 | DEX:35<br>
+        Status Unggul: Magis<br>
+        Kelebihan: Sihir alam liar.<br>
+        Penjelasan: Keturunan peri yang lahir dari dunia lain.
+      </div>
+
+      <div class="card">
+        <img src="kurcaci.jpg" alt="Gorvaks">
+        <strong>dwarf</strong><br>
+        HP: 1700 | MP: 450 | STR:70 | AGI:35 | END:94 | INT:69 | DEX:45<br>
+        Status Unggul: Pertahanan<br>
+        Kelebihan: Tubuh besar dan kuat.<br>
+        Penjelasan: Ras pegunungan dengan tubuh kekar.
+      </div>
+
+      <div class="card">
+        <img src="moon.jpg" alt="Lunari">
+        <strong>Lunari</strong><br>
+        HP: 1100 | MP: 1300 | STR:70 | AGI:55 | END:75 | INT:66 | DEX:52
+        Status Unggul: Kebijaksanaan<br>
+        Kelebihan: Kekuatan bulan.<br>
+        Penjelasan: Ras penyembah bulan yang memperoleh kekuatan dari cahaya malam.
+      </div>
+
+      <div class="card">
+        <img src="fire.jpg" alt="Ignivar">
+        <strong>Ignivar</strong><br>
+        HP: 1400 | MP: 800| STR:70 | AGI:75 | END:65 | INT:56 | DEX:35<br>
+        Status Unggul: Api<br>
+        Kelebihan: Manipulasi api.<br>
+        Penjelasan: Kaum pejuang berapi yang lahir di gunung berapi.
+      </div>
+
+      <div class="card">
+        <img src="water.jpg" alt="Thalorien">
+        <strong>Thalorien</strong><br>
+        HP: 1000 | MP: 1400 | STR:80 | AGI:85 | END:55 | INT:56 | DEX:55<br>
+        Status Unggul: Air<br>
+        Kelebihan: Mengendalikan arus laut.<br>
+        Penjelasan: Ras penghuni laut dalam dengan kekuatan mengendalikan air.
+      </div>
+
+      <div class="card">
+        <img src="rune.jpg" alt="Runeborn">
+        <strong>Runeborn</strong><br>
+        HP: 1200 | MP: 1200 | STR:59 | AGI:75 | END:75 | INT:76 | DEX:55<br>
+        Status Unggul: Sihir runa<br>
+        Kelebihan: Penyihir kuno.<br>
+        Penjelasan: Makhluk yang tubuhnya dihiasi simbol runa kuno.
+      </div>
+
+      <div class="card">
+        <img src="wind.jpg" alt="Zephyrian">
+        <strong>Zephyrian</strong><br>
+        HP: 1100 | MP: 900 | STR:70 | AGI:75 | END:55 | INT:46 | DEX:55<br>
+        Status Unggul: Kecepatan<br>
+        Kelebihan: Pengendali angin.<br>
+        Penjelasan: Ras yang tinggal di puncak gunung.
+      </div>
+
+      <div class="card">
+        <img src="al.jpg" alt="Terrakin">
+        <strong>alchemist</strong><br>
+        HP: 700 | MP: 1200 | STR:20 | AGI:35 | END:35 | INT:96 | DEX:25<br>
+        Status Unggul: pembuat ramuan dan eliksir langka<br>
+        Kelebihan: jika kamu membutuhkan ramuan datanglah ke alchemist kepintaran nya membuat ramuan dan eliksir.<br>
+        Penjelasan: Ras yang susah di jumpai karena tempat tinggal mereka yang tersembunyi dari oranh luar, lahir sebagai alchemist adalah kebanggan bagi oranh, memiliki tubuh bau rumput tumbuhan.
+      </div>
+
+      <div class="card">
+        <img src="dark magic.jpg" alt="Veylar">
+        <strong>Veylar</strong><br>
+        HP: 1000 | MP: 1500< | STR:80 | AGI:35 | END:55 | INT:56 | DEX:52>
+        Status Unggul: Sihir darah<br>
+        Kelebihan: Ritual pengorbanan.<br>
+        Penjelasan: Penyihir gelap yang menggunakan darah sebagai sumber kekuatan.
+      </div>
+
+      <div class="card">
+        <img src="seraphin.jpg" alt="Seraphel">
+        <strong>Seraphel</strong><br>
+        HP: 900 | MP: 1666 | STR:70 | AGI:75 | END:55 | INT:76 | DEX:55<br>
+        Status Unggul: Cahaya<br>
+        Kelebihan: Sayap bercahaya.<br>
+        Penjelasan: Makhluk bersayap yang membawa cahaya.
+      </div>
+
+      <div class="card">
+        <img src="hafling.jpg" alt="Nyxari">
+        <strong>hafling</strong><br>
+        HP: 1200 | MP: 1100 | STR:70 | AGI:95 | END:35 | INT:56 | DEX:34<br>
+        Status Unggul: lincah<br>
+        Kelebihan: gerakan yang lihai di mananpun dia berada kecuali dataran lengket atau jebakan.<br>
+        Penjelasan: Ras lihai berlari  yang mampu menghilang dalam sekejap mata.
+      </div>
+
+      <div class="card">
+        <img src="manipulasi.jpg" alt="Chromari">
+        <strong>aero</strong><br>
+        HP: 1100 | MP: 900 | STR:50 | AGI:65 | END:45 | INT:76 | DEX:85<br>
+        Status Unggul: cerdik tidak bisa di bodohi<br>
+        Kelebihan: pikiran kuat.<br>
+        Penjelasan: Ras yang bisa manipulasi pikiran lawan maupun kawan, dia bisa menyuruh yang dia Manipulasi apapun.
+      </div>
+
+      <div class="card">
+        <img src="bar.jpg" alt="Aurivian">
+        <strong>Barbarian</strong><br>
+        HP: 1600 | MP: 500 | STR:90 | AGI:45 | END:75 | INT:46 | DEX:55<br>
+        Status Unggul: fisik yang tiada tanding di ras manusia<br>
+        Kelebihan: badan yang kuat tinggi dan keahlian kapak nya yang terkenal.<br>
+        Penjelasan: Ras barbar yang diyakini bisa melawan 5 orang biasa seorang diri dan ras lain kekuatan nya terkenal di ras lain.
+      </div>
+
+      <div class="card">
+        <img src="wolf.jpg" alt="Oblivion">
+        <strong>warewolf</strong><br>
+        HP: 1555 | MP: 600 | STR:79 | AGI:75 | END:65 | INT:61 | DEX:45<br>
+        Status Unggul: cakaran yang bisa menembus armor baja sekalipun<br>
+        Kelebihan: Kekuatan cakaran gerakan yang cepat.<br>
+        Penjelasan: Makhluk misterius yang dapat berubah saat bulan muncul dapat mengamuk dan membunuh siapapun di sekitar nya.
+      </div>
+
+      <div class="card">
+        <img src="demon.jpg" alt="Floralis">
+        <strong>demon</strong><br>
+        HP: 1000 | MP: 1400  | STR:? | AGI:55 | END:85 | INT:46 | DEX:55<br>
+        Status Unggul: ras yang ditakuti dan di segani<br>
+        Kelebihan: Menyatu dengan leluhur mereka.<br>
+        Penjelasan: Ras demon hidup yang bisa tumbuh kembali setelah terluka setia hati pembangkitan mereka akan menerima kekuatan leluhur mereka maupun fisik,magic,kepintaran,rage,skill.
+      </div>
+
+      <div class="card">
+        <img src="thunder.jpg" alt="Stormborn">
+        <strong>Stormborn</strong><br>
+        HP: 1500 | MP: 600  | STR:77 | AGI:75 | END:35 | INT:56 | DEX:35<br>
+        Status Unggul: Petir<br>
+        Kelebihan: Kecepatan kilat.<br>
+        Penjelasan: Ras petir yang dapat memanggil badai, bergerak secepat kilat.
+      </div>
+
+      <div class="card">
+        <img src="necri.jpg" alt="Morveth">
+        <strong>Morveth</strong><br>
+        HP: 1400 | MP:900 | STR:70 | AGI:35 | END:55 | INT:56 | DEX:45<br>
+        Status Unggul: Nekromansi<br>
+        Kelebihan: Mengendalikan mayat hidup.<br>
+        Penjelasan: Ras pengendali kematian.
+      </div>
+
+      <div class="card">
+        <img src="vam.jpg" alt="Solari">
+        <strong>vampire</strong><br>
+        HP: 1300 | MP: 1000|
+        STR:50 | AGI:65 | END:45 | INT:66 | DEX:55 <br>
+        Status Unggul: menngendalikan blood sesuai kehendak mereka regenasi saat malam darah adalah sumber Kekuatan mereka dan darah adalah penyembuh<br>
+        Kelebihan: ras yang mengandalkan darah sebagai kekuatan mereka hidup abadi.<br>
+        Penjelasan: Ras yang memperoleh kekuatan dari darah mananpun saat siang hari mereka akan jarang terlihat karena sinar matahari tapi saat malam berhati hati lah dengan leher mu kamu akan pucat kehabisan darah.
+      </div>
+
+      <div class="card">
+        <img src="lion.jpg" alt="Dravok">
+        <strong>Dravok</strong><br>
+        HP: 1600 | MP: 700 | STR:70 | AGI:45 | END:75 | INT:46 | DEX:55  <br>
+        Status Unggul: Brutalitas<br>
+        Kelebihan: Tubuh monster.<br>
+        Penjelasan: Ras barbar dengan kekuatan fisik luar biasa.
+      </div>
+
+      <div class="card">
+        <img src="spirit.jpg" alt="Ethereal">
+        <strong>Ethereal</strong><br>
+        HP: 800 | MP: 1800 | STR:80 | AGI:75 | END:35 | INT:66 | DEX:35<br>
+        Status Unggul: Spirit<br>
+        Kelebihan: mampu mengendalikan spirit.<br>
+        Penjelasan:ras yang mampu mengendalikan roh/spirit yang tak sepenuhnya fisik setiap ras memiliki spirit nya saat pembangkitan spirit.
+      </div>
+
+      <div class="card">
+        <img src="orc.jpg" alt="Valaryn">
+        <strong>orc</strong><br>
+        HP: 1800 | MP: 100 | STR:80 | AGI:45 | END:75 | INT:26 | DEX:55<br>
+        Status Unggul: kekuatan fisik yang kuat<br>
+        Kelebihan: Kode kehormatan.<br>
+        Penjelasan: orc adalah ras yang memiliki Kekuatan fisik yang sangat kuat mereka biasa nya memiliki kelompok dan ras yang kurang mahir dalam magic.
+      </div>
+
+    </div>
+  </section>  
+
+  <footer>
+    <p>✨ Valoria Chronicles – Where Legends Are Written is story me and you ✨</p>
+  </footer>
+</body>
+</html>
